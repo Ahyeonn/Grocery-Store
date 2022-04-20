@@ -6,14 +6,18 @@
 <form method="POST">
     <fieldset>
         <legend>Please enter your information:</legend>
-
-
-
-        <!-- TODO: Remove the next paragraph and use the `form` object passed in 
-            from the route to render a form. -->
-        <p><em>Form fields go here!</em></p>
-
-        <input type="submit" value="Submit">
+        {{ form.csrf_token }}
+        {{ form.name.label}}
+        {{ form.name(placeholder='Tomato') }}
+        {{ form.price.label }}
+        {{ form.price(placeholder='$1.25') }}
+        {{ form.category.label }}
+        {{ form.category }}
+        {{ form.photo_url.label }}
+        {{ form.photo_url(placeholder='Photo URL Here')}}
+        {{ form.store.label }}
+        {{ form.store }}
+        {{ form.submit }}
     </fieldset>
 </form>
 
