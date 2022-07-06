@@ -1,4 +1,7 @@
 # Homework 3: Grocery Store
+This website was built with a web framework called Flask & a python programming language called SQLAlchemy. Users can sign-up & sign in to be able to add grocery stores and add items & the price of the items to the website. This website is built for ACS 1220, 'Authentication, Association, & Advanced Queries'.
+
+## 
 
 _For instructions on how to complete this assignment, see [here](https://github.com/Tech-at-DU/ACS-1220-Authentication-and-Associations/blob/master/Assignments/grocery-store-part-2.md)._
 
@@ -21,3 +24,4 @@ Then you can run the server:
 ```
 python3 app.py
 ```
+
